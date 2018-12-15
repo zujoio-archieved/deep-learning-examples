@@ -38,6 +38,14 @@ img_rows, img_cols = 28, 28
 # the data, split between train and test sets
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
+# Taken random samples
+samples = 500
+x_train = x_train[0:samples]
+y_train = y_train[0:samples]
+x_test = x_test[0:samples]
+y_test = y_test[0:samples]
+
+
 if K.image_data_format() == 'channels_first':
     x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)
     x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)
