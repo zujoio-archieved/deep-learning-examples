@@ -72,7 +72,7 @@ def create_base_network(input_shape):
     x = Dropout(0.1)(x)
     x = Dense(128, activation='relu')(x)
     x = Dropout(0.1)(x)
-    x = Dense(128, activation='relu')(x)
+    x = Dense(128, activation='relu')(x)siemese-network-fig-8-result.png
     return Model(input, x)
 
 
