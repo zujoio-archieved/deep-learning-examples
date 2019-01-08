@@ -60,6 +60,9 @@ def create_pairs(x, digit_indices):
             z1, z2 = digit_indices[d][i], digit_indices[dn][i]
             pairs += [[x[z1], x[z2]]]
             labels += [1, 0]
+
+
+    print("np.array(pairs)", np.array(pairs).shape)
     return np.array(pairs), np.array(labels)
 
 
@@ -72,7 +75,7 @@ def create_base_network(input_shape):
     x = Dropout(0.1)(x)
     x = Dense(128, activation='relu')(x)
     x = Dropout(0.1)(x)
-    x = Dense(128, activation='relu')(x)siemese-network-fig-8-result.png
+    x = Dense(128, activation='relu')(x)
     return Model(input, x)
 
 
