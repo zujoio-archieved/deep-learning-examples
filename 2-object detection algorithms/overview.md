@@ -103,5 +103,9 @@ REference List
 
 2. [https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9](https://towardsdatascience.com/deep-learning-for-object-detection-a-comprehensive-review-73930816d8d9)
 
+3. [https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/](https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-detection-algorithms-part-1/)
+
+4. [https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852](https://medium.com/comet-app/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852)
+
 
 
